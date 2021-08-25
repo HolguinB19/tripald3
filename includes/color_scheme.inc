@@ -66,6 +66,24 @@ function tripald3_tripald3_color_schemes() {
       'categorical' => array(4,3,1,7,2,5,8,6,0)
     ),
   );
+  
+  $color_schemes['AllBlu'] = array(
+    'name' => 'All-Blues',
+    'colors' => array('#4682B4', '#1b4569', '#21537d', '#266091', '#2b6da5', '#317bb9', '#3988cb', '#4d94d0', '#ffffff'),
+    'pick order' => array(
+      'quantitative' => array(0, 1, 2, 3, 4, 5, 6, 7, 8),
+      'categorical' => array(4,3,1,7,2,5,8,6,0)
+    ),
+  );
+
+  $color_schemes['CartoG'] = array(
+    'name' => 'CartogaTree',
+    'colors' => array( '#6e4d0b', '#21b214', '#9e6a04', '#323f36', '#c5d5a4', '#e9f9ef', '#e89900', '#909592', '#3c736a'),
+    'pick order' => array(
+      'quantitative' => array(0, 1, 2, 3, 4, 5, 6, 7, 8),
+      'categorical' => array(4,3,1,7,2,5,8,6,0)
+    ),
+  );
 
   return $color_schemes;
 }
